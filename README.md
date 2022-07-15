@@ -16,6 +16,7 @@ There are a few things that you will need before you can get started.
 * Java JDK - You can download the JDK directly from the Oracle website [here](https://www.oracle.com/java/technologies/downloads/). This will allow you to run Java applications on your machine.
 * Git for pulling down the code - follow [this]() guide for installing Git on all platforms. There are other useful guides on the website mentioned previously. Start [here](https://github.com/git-guides) anad follow through to the various links to learn more about Git. It will be very useful on your automation journey. If you have any issues with tokens or user credentials, let me know as this can trip a lot of people up.
 * IntelliJ or Eclipse - Either is fine, it's really down to personal preference. You can download IntelliJ for free from [here](https://www.jetbrains.com/idea/download/). You can download Eclipse from [here](https://www.eclipse.org/downloads/) .These are very useful tools for writing and running your code as they have auto complete, and powerful debugging capabilities.
+* ChromeDriver - this is the web driver that will be used to open Chrome and do the test locally. You can download it from [here](https://chromedriver.chromium.org/downloads). Remember to grab the version that matches your installed browser.
 
 Once you have these installed, you are good to go to the next step.
 

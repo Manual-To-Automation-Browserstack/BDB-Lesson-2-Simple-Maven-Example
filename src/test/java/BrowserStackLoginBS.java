@@ -13,6 +13,7 @@ public class BrowserStackLoginBS {
     // Your credentials will be used to log into BrowserStack. We are using environment variables as we don't want to hardcode login information in the code.
     public static final String AUTOMATE_USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     public static final String AUTOMATE_ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
+
     // Using the above credentials, create a URL for connection to BrowserStack.
     public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
